@@ -1,10 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/** @jsxImportSource @emotion/react */
+
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { css } from "@emotion/react";
+
+const containerStyles = css`
+  background-color: pink;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" css={containerStyles}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
