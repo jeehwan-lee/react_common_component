@@ -11,7 +11,7 @@ export const colorPalette = css`
   }
 `;
 
-export const color = {
+export const colors = {
   red: "var(--red)",
   blue: "var(--blue)",
   green: "var(--green)",
@@ -20,4 +20,4 @@ export const color = {
   grey: "var(--grey)",
 };
 
-export type Colors = keyof typeof color;
+export type Colors = keyof typeof colors;
