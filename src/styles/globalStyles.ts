@@ -136,6 +136,11 @@ export default css`
     border-spacing: 0;
   }
 
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
   button {
     border: none;
     margin: 0;
